@@ -1,9 +1,9 @@
 #include <stdio.h>
-#define MAX_NAME_LENGHT 100
+#define MAX_NAME_LENGTH 100
 
 int main()
 {
-	char filename[MAX_NAME_LENGHT];
+	char filename[MAX_NAME_LENGTH];
 	FILE *fp;
 	char c;
 	int characters = 0, lines = 0, startorend = 0, words = 0, spaces = 0;
