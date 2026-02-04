@@ -1,11 +1,5 @@
-CC = gcc
-CFLAGS = -Wall -g
-SOURCES = ./wordcounter.c
-
-all: clean wordcounter
-
-wordcounter:
-	$(CC) $(CFLAGS) $(SOURCES) -o wordcounter
+all:
+	cc -Wall -g wordcounter.c -o wordcounter
 
 clean:
 	rm -f wordcounter
